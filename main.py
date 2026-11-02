@@ -28,13 +28,10 @@ def reset_world():
     world = []
     
     grass = Grass()
-    world.append(grass, 0)
+    world.append(grass)
 
     boy = Boy()
-    world.append(boy, 1)
-
-    grass1 = Grass()
-    world.append(grass1, 2)
+    world.append(boy)
 
 
 
