@@ -3,6 +3,7 @@ from sdl2 import SDLK_SPACE
 from ball import Ball
 from boy import Boy
 from grass import Grass
+from grass1 import Grass1
 
 
 def handle_events():
@@ -27,7 +28,7 @@ def reset_world():
 
     world = []
 
-    grass1 = Grass()
+    grass1 = Grass1()
     world.append(grass1)
 
     boy = Boy()
